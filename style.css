@@ -1,0 +1,240 @@
+/* Styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section Styles */
+#hero {
+    background: #e2e2e2;
+    padding: 50px 0;
+}
+
+#hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-content .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image {
+    max-width: 45%;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #hero .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content, .hero-image {
+        max-width: 100%;
+    }
+
+    .hero-image img {
+        margin-top: 20px;
+    }
+}
+
+/* Features Section Styles */
+#features {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#features h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature-item {
+    max-width: 30%;
+    margin: 10px 0;
+}
+
+.feature-item h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 16px;
+}
+
+/* How It Works Section Styles */
+#how-it-works {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#how-it-works h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.step {
+    max-width: 20%;
+    margin: 10px 0;
+}
+
+.step h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 16px;
+}
+
+/* Testimonials Section Styles */
+#testimonials {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#testimonials h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.testimonials-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.testimonial-item {
+    max-width: 40%;
+    margin: 10px 0;
+}
+
+.testimonial-item p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.testimonial-item h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Download Section Styles */
+#download {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#download h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.download-buttons .download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* Footer Section Styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
